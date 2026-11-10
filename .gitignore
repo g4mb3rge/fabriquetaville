@@ -1,0 +1,27 @@
+# macOS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+
+# Backend Symfony
+/backend/.env.local
+/backend/.env.local.php
+/backend/.env.*.local
+/backend/config/secrets/prod/prod.decrypt.private.php
+/backend/config/jwt/*.pem
+/backend/public/bundles/
+/backend/var/
+/backend/vendor/
+/backend/public/uploads/
+
+# Frontend React
+/frontend/node_modules/
+/frontend/dist/
+/frontend/.env.local
+/frontend/.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
